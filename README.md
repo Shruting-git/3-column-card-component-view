@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: (https://github.com/Shruting-git/3-column-card-component-view)
+- Solution URL: https://www.frontendmentor.io/solutions/3columncardcomponentpreview-Qz_jm_Z0g4
+- Live Site URL: (https://shruting-git.github.io/3-column-card-component-view/)
 
 ## My process
 
@@ -38,9 +38,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-
-
 
 
 ### Useful resources
