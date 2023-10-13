@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    /* min-height: 100vh; */
+    
+}
+
+main{
+    display: flex;
+    height: 300px;
+    margin-top: 230px;
+    margin-left: 410px;
+    margin-right: 410px;
+    margin-bottom: 10px;
+}
+/*typography*/
+h2{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+}
+h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: lighter;
+    padding-top: -35px;
+    padding-bottom: 20px;
+}
+/*grid*/
+.yellow{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding: 25px;
+}
+.lightgreen{
+    background-color:hsl(184, 100%, 22%);
+    color: #fff;
+    padding: 25px;
+}
+.darkgreen{
+    background-color:hsl(179, 100%, 13%);
+    color: #fff;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    padding: 25px;
+}
+/*button-design*/
+button{
+    bottom:10px ;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    border:none;
+    background-color: hsl(0, 0%, 95%);
+
+}
+button:hover,
+button:focus{
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.one{
+    color: hsl(31, 77%, 52%);
+}
+.two{
+    color: hsl(184, 100%, 22%);
+}
+.three{
+    color: hsl(179, 100%, 13%);
+}
+/*footer*/
+.attribution{
+    margin-top: 15px;
+    font-size: 9px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:35px;
+}
+.attribution a{
+    color:hsl(31, 77%, 52%) ;
+    text-decoration: none;
+}
+/*image-icon*/
+img{
+    max-width: 100%;
+    display: block;
+    margin-top: -5px;
+}
+.icon{
+    width: 2.5rem;
+}
